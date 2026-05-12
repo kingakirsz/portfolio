@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinga Kirsz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="mock-body">
+  <div class="corgi-walk-area"></div>
+  <header class="main-header" style="position: relative;">
+    <div class="corgi-mover">
+      <img src="img/corgi.png" alt="corgi" class="corgi-hop">
+    </div>
+    <div class="profile-photo-wrapper">
+      <img src="img/pfp.jpg" alt="Kinga Kirsz" class="profile-photo">
+    </div>
+    <h1>Kinga Kirsz</h1>
+    <h2>@kingakirsz</h2>
+    <div class="motto-wrapper">
+      <h3 class="motto">Turning ideas into working software - with attention to every last detail.</h3>
+    </div>
+    <nav class="top-nav">
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="img/cv.pdf" target="_blank">CV (.pdf)</a></li>
+        <li><button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">☀️</button></li>
+        <li class="spacer">|</li>
+        <li><a href="https://github.com/kingakirsz" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/kinga-kirsz/" target="_blank">LinkedIn</a></li>
+        <li><a href="mailto:kingakirsz@gmail.com?subject=Hello%20Kinga!">Contact</a></li>
+      </ul>
+    </nav>
+    <p class="bug-counter">Bugs fixed: <span id="bug-count">0</span></p>
+  </header>
+  <div class="main-content">
+    <section class="left-section">
+      <h2>Welcome, I'm glad you stopped by!</h2>
+      <header class="inner-header welcome-header">
+        <h3>Code, design and everything in between. From coursework to personal projects - it's all here!</h3>
+      </header>
+      <article>
+        <h2>Get to know me</h2>
+        <h4 style="color: var(--cherry-red)" id="typewriter">me@kingakirsz ~ % whoami</h4>
+        <h3>Software Developer | CS Student @ WUT | Marketing Lead @ GDG on Campus PW</h3>
+        I am a second-year Applied Computer Science student at the Warsaw University of Technology, currently serving as the Marketing Lead for GDG on Campus PW - where I lead a 7-person team, organise hackathons, and coordinate developer community events. I am passionate about writing clean, well-structured code and building projects that are both functional and thoughtfully designed.
+        <h3>Tech Stack & Experience</h3>
+        <ul style="list-style-type: square; text-align: left; list-style-position: inside;">
+          <li>Java</li>
+          <li>C</li>
+          <li>Python</li>
+          <li>SQL / T-SQL</li>
+          <li>Git</li>
+          <li>HTML, CSS & JavaScript</li>
+          <li>AI tools: Claude Code, Gemini CLI</li>
+        </ul>
+        <p class="wide-p">
+          <b>Goals:</b>
+          I am working toward a career in software development, with a long-term interest in creative applications of technology - from developer tooling to interactive and game-adjacent experiences.
+        </p>
+        <div class="split-container">
+          <p class="half-p">
+            <b>Education</b><br><br>
+            B.Eng. Applied Computer Science<br>
+            Warsaw University of Technology<br>
+            2023 - present (2nd year)
+          </p>
+          <aside>
+            <b>Activities</b><br><br>
+            Marketing Lead @ GDG on Campus PW<br><br>
+            Hackathon organiser<br><br>
+            Open to internship opportunities
+          </aside>
+        </div>
+        <h3>@ GDG on Campus PW</h3>
+        <div class="carousel-wrapper">
+          <button class="carousel-btn prev">&#8249;</button>
+          <div class="carousel">
+            <div class="carousel-track">
+              <img src="img/gdg_team.png" alt="GDG Team">
+              <img src="img/1.png" alt="Build With AI Hackathon">
+              <img src="img/2.png" alt="Build With AI Hackathon">
+              <img src="img/3.png" alt="Build With AI Hackathon">
+              <img src="img/4.png" alt="Build With AI Hackathon">
+              <img src="img/5.png" alt="Build With AI Hackathon">
+            </div>
+          </div>
+          <button class="carousel-btn next">&#8250;</button>
+        </div>
+        <footer class="inner-footer">Feel free to reach out - kingakirsz@gmail.com</footer>
+      </article>
+    </section>
+    <section class="right-section">
+      <h2 id="projects">Recent Projects</h2>
+      <article class="featured-project">
+        <h3>Featured: TomoDochi</h3>
+        <h4>[Work In Progress]</h4>
+        <p>
+          A gamified productivity app built in Vanilla JavaScript.<br><br>
+          • Virtual pet system that evolves based on task completion<br>
+          • Energy management mechanic & 3 distinct workflow modes<br>
+          • LocalStorage persistence, custom UI components<br><br>
+        </p>
+        <a href="https://github.com/kingakirsz/tomodochi" target="_blank" class="repo-btn">View Repository</a>
+      </article>
+      <header class="inner-header">
+        <h4>Currently working on:</h4>
+        <i>TomoDochi v1.0 - adding custom pixel art sprites and finalising core gameplay loop.</i>
+      </header>
+      <nav class="side-nav">
+        <ul class="project-list">
+          <li>
+            <span>C Minesweeper</span>
+            <a href="https://github.com/kingakirsz/c-minesweeper" target="_blank" class="repo-btn">GitHub</a>
+          </li>
+          <li>
+            <span>Procedural Maze Solver</span>
+            <a href="https://github.com/kingakirsz/procedural-maze-solver" target="_blank" class="repo-btn">GitHub</a>
+          </li>
+          <li>
+            <span>T-SQL Library Database</span>
+            <a href="https://github.com/kingakirsz/sql-library" target="_blank" class="repo-btn">GitHub</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+  </div>
+  <footer class="main-footer"><h4>Copyright © Kinga Kirsz (@kingakirsz), All rights reserved.</h4></footer>
+</div>
+
+<script>
+  const themeToggle = document.getElementById('theme-toggle');
+  const currentTheme = localStorage.getItem('theme') || 'light';
+  
+  if (currentTheme === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    themeToggle.textContent = '🌙';
+  }
+
+  themeToggle.addEventListener('click', () => {
+    let theme = document.documentElement.getAttribute('data-theme');
+    if (theme === 'dark') {
+      document.documentElement.removeAttribute('data-theme');
+      localStorage.setItem('theme', 'light');
+      themeToggle.textContent = '☀️';
+    } else {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      localStorage.setItem('theme', 'dark');
+      themeToggle.textContent = '🌙';
+    }
+  });
+
+  const typeWriterElement = document.getElementById('typewriter');
+  const textToType = typeWriterElement.textContent;
+  typeWriterElement.textContent = '';
+  let charIndex = 0;
+  
+  function typeWriter() {
+    if (charIndex < textToType.length) {
+      typeWriterElement.textContent += textToType.charAt(charIndex);
+      charIndex++;
+      setTimeout(typeWriter, 80);
+    }
+  }
+  
+  setTimeout(typeWriter, 500);
+
+  const header = document.querySelector('.main-header');
+  const corgiMover = document.querySelector('.corgi-mover');
+  const bugCountEl = document.getElementById('bug-count');
+  const bugEmojis = ['🐛', '🐞', '🪲', '🦗', '🐜'];
+  let bugsCollected = 0;
+  let activeBugs = 0;
+  const MAX_BUGS = 3;
+
+  function spawnBug() {
+    if (activeBugs < MAX_BUGS) {
+      const bug = document.createElement('span');
+      bug.classList.add('bug');
+      bug.textContent = bugEmojis[Math.floor(Math.random() * bugEmojis.length)];
+
+      const headerWidth = header.offsetWidth;
+      bug.style.left = (20 + Math.random() * (headerWidth - 80)) + 'px';
+      bug.style.top = '-55px';
+
+      header.appendChild(bug);
+      activeBugs++;
+    }
+    setTimeout(spawnBug, 2500 + Math.random() * 3000);
+  }
+
+  function checkCollisions() {
+    const bugs = document.querySelectorAll('.bug');
+    const corgiRect = corgiMover.getBoundingClientRect();
+
+    bugs.forEach(bug => {
+      const bugRect = bug.getBoundingClientRect();
+      const overlap = corgiRect.left < bugRect.right + 10 &&
+                      corgiRect.right > bugRect.left - 10;
+      if (overlap) {
+        bug.remove();
+        activeBugs--;
+        bugsCollected++;
+        bugCountEl.textContent = bugsCollected;
+      }
+    });
+
+    requestAnimationFrame(checkCollisions);
+  }
+
+  setTimeout(spawnBug, 3000);
+  requestAnimationFrame(checkCollisions);
+
+  const carouselEl = document.querySelector('.carousel');
+  const track = document.querySelector('.carousel-track');
+  const slides = track.querySelectorAll('img');
+  let current = 0;
+  let autoSlide;
+
+  function getSlideWidth() {
+    return carouselEl.offsetWidth;
+  }
+
+  function initSlides() {
+    const w = getSlideWidth();
+    slides.forEach(s => s.style.width = w + 'px');
+  }
+
+  function goTo(index) {
+    current = (index + slides.length) % slides.length;
+    track.style.transform = `translateX(-${current * getSlideWidth()}px)`;
+  }
+
+  function startAuto() {
+    autoSlide = setInterval(() => goTo(current + 1), 4000);
+  }
+
+  function stopAuto() {
+    clearInterval(autoSlide);
+  }
+
+  initSlides();
+  window.addEventListener('resize', () => { initSlides(); goTo(current); });
+
+  document.querySelector('.carousel-btn.prev').addEventListener('click', () => {
+    stopAuto(); goTo(current - 1); startAuto();
+  });
+  document.querySelector('.carousel-btn.next').addEventListener('click', () => {
+    stopAuto(); goTo(current + 1); startAuto();
+  });
+
+  carouselEl.addEventListener('mouseenter', stopAuto);
+  carouselEl.addEventListener('mouseleave', startAuto);
+
+  startAuto();
+</script>
+</body>
+</html>
